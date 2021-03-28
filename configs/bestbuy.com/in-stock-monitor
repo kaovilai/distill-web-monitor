@@ -1,0 +1,23 @@
+{
+  "selections": [
+    {
+      "frames": [
+        {
+          "index": 0,
+          "excludes": [],
+          "includes": [
+            {
+              "type": "js",
+              "expr": "document.getElementsByClassName(\"add-to-cart-button\")[0]"
+            }
+          ]
+        }
+      ],
+      "dynamic": false,
+      "delay": 0
+    }
+  ],
+  "ignoreEmptyText": true,
+  "includeStyle": false,
+  "dataAttr": "text"
+}
