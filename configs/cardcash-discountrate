@@ -1,0 +1,23 @@
+{
+  "selections": [
+    {
+      "frames": [
+        {
+          "index": 0,
+          "excludes": [],
+          "includes": [
+            {
+              "type": "js",
+              "expr": "let cards = document.getElementsByClassName(\"brand-table-row\")\n    let maxOff=0\n    for(i = 0; i < cards.length; i++){\n        let curOff = parseFloat(cards.item(i).children[0].children[4].innerText)\n        if(curOff>maxOff) maxOff = curOff\n    }\nlet div = document.createElement(\"div\");\ndiv.innerHTML=maxOff\ndiv.id=\"distillreturnval\";\ndocument.body.appendChild(div);\ndocument.getElementById(div.id);"
+            }
+          ]
+        }
+      ],
+      "dynamic": true,
+      "delay": 3
+    }
+  ],
+  "ignoreEmptyText": true,
+  "includeStyle": false,
+  "dataAttr": "text"
+}
